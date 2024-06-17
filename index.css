@@ -1,0 +1,66 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#inicio {
+    background-color: #f4f4f4;
+}
+
+#portfolio {
+    background-color: #fff;
+    margin: 1rem 0;
+}
+
+.portfolio-item {
+    border: 1px solid #ddd;
+    margin: 1rem 0;
+    padding: 1rem;
+    text-align: left; 
+}
+
+.portfolio-item img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem; 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
